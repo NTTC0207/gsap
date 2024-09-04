@@ -1,0 +1,59 @@
+.landingWrapper {
+    height: 80vh;
+    background-color: #252525;
+}
+
+.scrollWrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 400%;
+    height: 100%;
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div1 {
+    background: #f7c0eb;
+}
+
+.div2 {
+    background: #d1c0f7;
+}
+
+.div3 {
+    background: #c0d6f7;
+}
+
+.div4 {
+    background: #c8c0f7;
+}
+
+
+.imageWrapper {
+    opacity: 0;
+    background: #252525;
+    position: relative;
+    height: 400%;
+
+}
+
+.imageList{
+  background: #252525;
+  height: 100%;
+  display: flex;
+  justify-content: center;  
+}
+
+.imageWrapper img {
+    width: clamp(200px, 600px, 1000px);
+    height: 280px;
+    position: absolute;
+    transform: translateY(1000px);
+}
